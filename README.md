@@ -10,7 +10,7 @@ Works with Python version 3.9.5
 
 ## Requirements
 
-- To run this script you need to extract [ChromeDriver](https://sites.google.com/chromium.org/driver/) to your local disc and add it to system variable PATH.
+- To run tests you need to extract [ChromeDriver](https://sites.google.com/chromium.org/driver/) to your local disc and add it to system variable PATH.
 
 - Use `pip` to install required packages.
 ```bash
