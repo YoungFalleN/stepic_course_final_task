@@ -54,7 +54,6 @@ def test_guest_cant_see_success_message_after_adding_product_to_cart(browser):
     page.should_not_be_success_message()
 
 
-# @pytest.mark.skip
 def test_guest_cant_see_success_message(browser):
     link = PRODUCT_CODERS_LINK
     page = ProductPage(browser, link)
@@ -71,7 +70,6 @@ def test_message_disappeared_after_adding_product_to_basket(browser):
     page.should_disappear_success_message()
 
 
-# @pytest.mark.skip
 def test_guest_should_see_login_link_on_product_page(browser):
     link = PRODUCT_CITY_LINK
     page = ProductPage(browser, link)
